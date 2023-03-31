@@ -1,0 +1,6 @@
+# ignore generated files
+/.gradle
+/build
+
+# ignore Vim swap files
+*.swp
