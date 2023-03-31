@@ -21,11 +21,11 @@ Add to int list
 curl -X POST localhost:8083/int -H 'Content-type:application/json' -d '42'
 curl -X POST localhost:8083/int -H 'Content-type:application/json' -d '38'
 ```
-Get i-th item from string list
+Get i-th item from int list
 ```sh
 curl -X GET localhost:8083/int/<i>
 ```
-Remove i-th item from string list
+Remove i-th item from int list
 ```sh
 curl -X DELETE localhost:8083/int/<i>
 ```
